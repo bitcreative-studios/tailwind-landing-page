@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container } from '@/components/Container'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const Resources = () => {
   return (
@@ -14,7 +15,7 @@ const Resources = () => {
           {/* Video */}
           <div className="mb-12 w-full px-4 lg:mb-0 lg:w-2/3">
             <h2 className="font-heading mb-12 mt-3 text-3xl font-bold ">Videos</h2>
-            <img className="w-full rounded-lg object-cover" src="mockup-assets/images/gray-500-square.png" alt="" />
+            <Image className="w-full rounded-lg object-cover" src="mockup-assets/images/gray-500-square.png" alt="" />
             <div className="h-64 w-3/4 bg-slate-400"></div>
             <div className="mt-5 space-y-4 text-sm">
               <h3 className="text-xl font-medium">How to grow your bussiness with 10$</h3>

@@ -1,5 +1,5 @@
-/* This example requires Tailwind CSS v2.0+ */
 import { InboxIcon, PencilAltIcon, TrashIcon, UsersIcon } from '@heroicons/react/outline'
+import Image from 'next/image'
 import { Container } from '@/components/Container'
 import React from 'react'
 
@@ -57,7 +57,7 @@ const LeadingContent = () => (
   <div className="relative bg-primary-800">
     {/* Image Container*/}
     <div className="-top-24 h-56 bg-primary-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2 lg:min-h-[40rem]">
-      <img
+      <Image
         className="h-full w-full object-cover"
         src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2301&q=80"
         alt=""

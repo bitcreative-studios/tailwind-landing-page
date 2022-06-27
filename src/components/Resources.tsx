@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container } from '@/components/Container'
+import { Container } from './Container'
 import Link from 'next/link'
 import Image from 'next/image'
 

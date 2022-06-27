@@ -1,6 +1,6 @@
 import { InboxIcon, PencilAltIcon, TrashIcon, UsersIcon } from '@heroicons/react/outline'
 import Image from 'next/image'
-import { Container } from '@/components/Container'
+import { Container } from './Container'
 import React from 'react'
 
 const faqs = [

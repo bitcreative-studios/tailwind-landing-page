@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react'
 import clsx from 'clsx'
-import { Container } from '@/components/Container'
+import { Container } from './Container'
 import Link from 'next/link'
-import Logo from '@/components/Logo'
+import Logo from './Logo'
 import { PhoneIcon } from '@heroicons/react/outline'
 import { Popover, Transition } from '@headlessui/react'
 

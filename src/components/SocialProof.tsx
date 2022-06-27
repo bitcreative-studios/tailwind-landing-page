@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { Container } from '@/components/Container'
+import { Container } from './Container'
 import { ExternalLinkIcon } from '@heroicons/react/outline'
 
 const SocialProof = () => {

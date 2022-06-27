@@ -1,10 +1,9 @@
 import Link from 'next/link'
-import Layout from '@/components/Layout'
-import Header from '@/components/Header'
-import Hero from '@/components/Hero'
-import SocialProof from '@/components/SocialProof'
-import Services from '@/components/Services'
-import Resources from '@/components/Resources'
+import Header from '../components/Header'
+import Hero from '../components/Hero'
+import SocialProof from '../components/SocialProof'
+import Services from '../components/Services'
+import Resources from '../components/Resources'
 
 const IndexPage = () => (
   <>

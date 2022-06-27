@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { ArrowRightIcon } from '@heroicons/react/outline'
-import { Container } from '@/components/Container'
+import { Container } from './Container'
 
 const Hero = () => {
   return (

@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#__next {
+  min-height: 100%;
+}
+
+@layer components {
+  .clip-top {
+    clip-path: polygon(100% 0, 0% 100%, 0 0);
+  }
+  .clip-bottom {
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+  }
+  .clip-tl {
+    clip-path: polygon(0 100%, 100% 0, 100% 100%);
+  }
+  .clip-tr {
+    clip-path: polygon(0 100%, 0 0, 100% 100%);
+  }
+  .clip-bl {
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+  }
+  .clip-br {
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+  }
+}

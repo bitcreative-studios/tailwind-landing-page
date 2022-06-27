@@ -1,6 +1,7 @@
 import React, { ReactNode } from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
+import Logo from '@/components/Logo'
 
 type Props = {
   children?: ReactNode
@@ -15,6 +16,7 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
     <header>
+      <Logo className="h-10 w-auto" />
       <nav>
         <Link href="/">
           <a>Home</a>
